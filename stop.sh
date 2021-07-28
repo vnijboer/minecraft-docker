@@ -3,7 +3,7 @@
 #Define cleanup procedure
 cleanup() {
     echo "Container stopped, performing cleanup..."
-    /var/minecraft/mcrcon -H localhost -P 8308 -p lDGg@yz@TNC stop
+    /minecraft/server/mcrcon -H localhost -P 8308 -p lDGg@yz@TNC stop
 }
 
 #Trap SIGTERM
