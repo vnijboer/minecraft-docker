@@ -49,8 +49,8 @@ RUN dos2unix eula.txt
 RUN dos2unix stop.sh
 RUN dos2unix start.sh
 
-CMD ["/bin/bash", "-ex", "start.sh"]
+CMD ["/bin/bash", "-ex", "/minecraft/server/start.sh"]
 
-ENTRYPOINT ["/bin/bash", "-ex", "stop.sh"]
+ENTRYPOINT ["/bin/bash", "-ex", "/minecraft/server/stop.sh"]
 
 VOLUME /minecraft/server
