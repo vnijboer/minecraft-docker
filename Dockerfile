@@ -53,4 +53,4 @@ CMD ["/bin/bash", "-ex", "/minecraft/server/start.sh"]
 
 ENTRYPOINT ["/bin/bash", "-ex", "/minecraft/server/stop.sh"]
 
-VOLUME /minecraft/server
+VOLUME /minecraft/server/world
