@@ -34,7 +34,7 @@ RUN git clone  git://git.code.sf.net/p/mcrcon/code /mcrcon-code
 
 RUN gcc /mcrcon-code/mcrcon.c -o /minecraft/server/mcrcon 
 
-# /var/minecraft/mcrcon -H localhost -P 8308 -p lDGg@yz@TNC -t
+# /minecraft/server/mcrcon -H localhost -P 8308 -p lDGg@yz@TNC -t
 
 WORKDIR /minecraft/server
 
